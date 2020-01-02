@@ -1,0 +1,9 @@
+
+
+const SOCIAL_NETWORKS = Object.freeze( {
+    FACEBOOK: "FACEBOOK",
+    TWITTER: "TWITTER",
+    LINKED_IN: "LINKED_IN",
+    GOOGLE_PLUS: "GOOGLE_PLUS",
+    REDDIT: "REDDIT",
+});

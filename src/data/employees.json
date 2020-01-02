@@ -1,38 +1,114 @@
 [
   {
-    "name": "Test",
+    "name": "Ruth Wood",
+    "position": "FOUNDER, CEO",
+    "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
+    "avatar": "./assets/images/team-1.jpg",
     "contacts": [
-      "test",
-      "test",
-      "facebook/sdfsdf"
-    ],
-    "profilePicture": "./assets/images/team-2.jpg"
+      {
+        "type": "SOCIAL_NETWORKS.FACEBOOK",
+        "link": "facebook.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.TWITTER",
+        "link": "twitter.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.LINKED_IN",
+        "link": "linkedin.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.GOOGLE_PLUS",
+        "link": "google.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.REDDIT",
+        "link": "reddit.com"
+      }
+    ]
   },
   {
-    "name": "Test",
+    "name": "Timothy Reed",
+    "position": "CO-FOUNDER, DEVELOPER",
+    "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
+    "avatar": "./assets/images/team-2.jpg",
     "contacts": [
-      "test",
-      "test",
-      "facebook/sdfsdf"
-    ],
-    "profilePicture": "./assets/images/team-2.jpg"
+      {
+        "type": "SOCIAL_NETWORKS.FACEBOOK",
+        "link": "facebook.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.TWITTER",
+        "link": "twitter.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.LINKED_IN",
+        "link": "linkedin.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.GOOGLE_PLUS",
+        "link": "google.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.REDDIT",
+        "link": "reddit.com"
+      }
+    ]
   },
   {
-    "name": "Test",
+    "name": "Victoria Valdez",
+    "position": "FOUNDER, CEO",
+    "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
+    "avatar": "./assets/images/team-3.jpg",
     "contacts": [
-      "test",
-      "test",
-      "facebook/sdfsdf"
-    ],
-    "profilePicture": "./assets/images/team-2.jpg"
+      {
+        "type": "SOCIAL_NETWORKS.FACEBOOK",
+        "link": "facebook.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.TWITTER",
+        "link": "twitter.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.LINKED_IN",
+        "link": "linkedin.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.GOOGLE_PLUS",
+        "link": "google.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.REDDIT",
+        "link": "reddit.com"
+      }
+    ]
   },
   {
-    "name": "Test",
+    "name": "Beverly Little",
+    "position": "DATA SCIENTIST",
+    "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
+    "avatar": "./assets/images/team-4.jpg",
     "contacts": [
-      "test",
-      "test",
-      "facebook/sdfsdf"
-    ],
-    "profilePicture": "./assets/images/team-2.jpg"
+      {
+        "type": "SOCIAL_NETWORKS.FACEBOOK",
+        "link": "facebook.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.TWITTER",
+        "link": "twitter.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.LINKED_IN",
+        "link": "linkedin.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.GOOGLE_PLUS",
+        "link": "google.com"
+      },
+      {
+        "type": "SOCIAL_NETWORKS.REDDIT",
+        "link": "reddit.com"
+      }
+    ]
   }
 ]

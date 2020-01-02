@@ -1,0 +1,12 @@
+[
+  {
+    "img": "./assets/images/testimonial-1.jpg",
+    "description": "\"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...\"",
+    "name": "SUSAN SIMS, INTERACTION DESIGNER AT XYZ"
+  },
+  {
+    "img": "./assets/images/testimonial-2.jpg",
+    "description": "\"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur....\"",
+    "name": "SUSAN SIMS, INTERACTION DESIGNER AT XYZ"
+  }
+]
