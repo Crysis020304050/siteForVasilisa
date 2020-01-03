@@ -6,24 +6,24 @@
     "avatar": "./assets/images/team-1.jpg",
     "contacts": [
       {
-        "type": "SOCIAL_NETWORKS.FACEBOOK",
-        "link": "facebook.com"
+        "type": "FACEBOOK",
+        "href": "https://facebook.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.TWITTER",
-        "link": "twitter.com"
+        "type": "TWITTER",
+        "href": "https://twitter.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.LINKED_IN",
-        "link": "linkedin.com"
+        "type": "LINKED_IN",
+        "href": "https://linkedin.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.GOOGLE_PLUS",
-        "link": "google.com"
+        "type": "GOOGLE_PLUS",
+        "href": "https://google.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.REDDIT",
-        "link": "reddit.com"
+        "type": "REDDIT",
+        "href": "https://reddit.com/"
       }
     ]
   },
@@ -34,24 +34,24 @@
     "avatar": "./assets/images/team-2.jpg",
     "contacts": [
       {
-        "type": "SOCIAL_NETWORKS.FACEBOOK",
-        "link": "facebook.com"
+        "type": "FACEBOOK",
+        "href": "https://facebook.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.TWITTER",
-        "link": "twitter.com"
+        "type": "TWITTER",
+        "href": "https://twitter.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.LINKED_IN",
-        "link": "linkedin.com"
+        "type": "LINKED_IN",
+        "href": "https://linkedin.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.GOOGLE_PLUS",
-        "link": "google.com"
+        "type": "GOOGLE_PLUS",
+        "href": "https://google.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.REDDIT",
-        "link": "reddit.com"
+        "type": "REDDIT",
+        "href": "https://reddit.com/"
       }
     ]
   },
@@ -62,24 +62,24 @@
     "avatar": "./assets/images/team-3.jpg",
     "contacts": [
       {
-        "type": "SOCIAL_NETWORKS.FACEBOOK",
-        "link": "facebook.com"
+        "type": "FACEBOOK",
+        "href": "https://facebook.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.TWITTER",
-        "link": "twitter.com"
+        "type": "TWITTER",
+        "href": "https://twitter.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.LINKED_IN",
-        "link": "linkedin.com"
+        "type": "LINKED_IN",
+        "href": "https://linkedin.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.GOOGLE_PLUS",
-        "link": "google.com"
+        "type": "GOOGLE_PLUS",
+        "href": "https://google.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.REDDIT",
-        "link": "reddit.com"
+        "type": "REDDIT",
+        "href": "https://reddit.com/"
       }
     ]
   },
@@ -90,24 +90,24 @@
     "avatar": "./assets/images/team-4.jpg",
     "contacts": [
       {
-        "type": "SOCIAL_NETWORKS.FACEBOOK",
-        "link": "facebook.com"
+        "type": "FACEBOOK",
+        "href": "https://facebook.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.TWITTER",
-        "link": "twitter.com"
+        "type": "TWITTER",
+        "href": "https://twitter.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.LINKED_IN",
-        "link": "linkedin.com"
+        "type": "LINKED_IN",
+        "href": "https://linkedin.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.GOOGLE_PLUS",
-        "link": "google.com"
+        "type": "GOOGLE_PLUS",
+        "href": "https://google.com/"
       },
       {
-        "type": "SOCIAL_NETWORKS.REDDIT",
-        "link": "reddit.com"
+        "type": "REDDIT",
+        "href": "https://reddit.com/"
       }
     ]
   }
