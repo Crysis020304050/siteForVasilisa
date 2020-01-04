@@ -410,7 +410,6 @@ body * {
   height: 100%;
   opacity: 1;
   object-fit: cover;
-  transition: opacity 0.5s;
 }
 
 .slideInformationContainer {
@@ -457,7 +456,6 @@ body * {
   height: 11px;
   border-radius: 50%;
   background-color: #755d6e;
-  transition: background-color 0.3s;
   cursor: pointer;
 }
 

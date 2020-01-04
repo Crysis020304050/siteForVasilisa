@@ -7,6 +7,7 @@ import './assets/scss/styles.scss';
 import './assets/js/scrollNavigationEvents';
 import './assets/js/openWorkPhoto';
 import './assets/js/teamsLoader';
+import './assets/js/slider';
 
 
 
