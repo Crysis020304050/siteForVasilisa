@@ -1,8 +1,7 @@
-@import "theme";
-@import "break-points";
+
 
 #pageFooter {
-  margin-top: auto;
+
   color: white;
   text-align: center;
   font-size: 14px;
@@ -11,6 +10,7 @@
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 10px;
     line-height: 1.6;
+    padding: 0 20px;
   }
 
 }
@@ -27,7 +27,7 @@
   flex-direction: column;
 
 
-  @media screen and (min-width: $lg) {
+  @media screen and (min-width: 992px) {
     flex-direction: row;
   }
 
@@ -40,7 +40,7 @@
   margin-bottom: 50px;
 
 
-  @media screen and (min-width: $md){
+  @media screen and (min-width: 768px){
     margin-bottom: 80px;
   }
 
@@ -54,10 +54,21 @@
 
   li{
     display: inline-block;
+
   }
 
   a {
-    border-width: 2px !important;
+    border: 2px solid #e8ecee;
+    border-radius: 2px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+
+    i {
+      color: #e8ecee;
+    }
+
   }
 
   a:hover, a:active {
@@ -65,10 +76,6 @@
     background-color: #e84545;
   }
 
-
-}
-
-.footerItem h5 {
 
 }
 
@@ -82,10 +89,10 @@
   }
 
   a:hover{
-    color: $accent-color;
+    color: #e84545;
   }
 
   i{
-    color: $accent-color;
+    color: #e84545;
   }
 }

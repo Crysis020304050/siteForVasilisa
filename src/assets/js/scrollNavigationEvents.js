@@ -2,7 +2,7 @@ const headerContent = document.getElementsByClassName('headerContent')[0];
 const header = document.getElementById('header');
 
 window.onscroll = () => {
-    if (window.scrollY > 40) {
+    if (window.scrollY > 20) {
         headerContent.style.padding = "25px 0";
         headerContent.style.borderBottom = "none";
         header.style.backgroundColor = "#292C47";
