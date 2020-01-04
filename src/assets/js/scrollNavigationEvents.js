@@ -20,3 +20,22 @@ const works = document.getElementById('works');
 const teams = document.getElementById('teams');
 const testimonials = document.getElementById('testimonials');
 const download = document.getElementById('download');
+
+
+/*Function for a smooth scroll*/
+
+const anchors = document.querySelectorAll('a[href*="#"]');
+
+for (let anchor of anchors) {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const blockID = anchor.getAttribute('href').substr(1);
+
+        document.getElementById(blockID).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        })
+    })
+}
+

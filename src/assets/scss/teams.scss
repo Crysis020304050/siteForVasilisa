@@ -1,0 +1,73 @@
+#teams {
+  padding: 100px 0;
+}
+
+.teamsContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.teamCard {
+  max-width: 270px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+
+}
+
+.teamImageContainer {
+  width: 100%;
+}
+
+.teamImageContainer img {
+  width: inherit;
+}
+
+.fullName {
+  font-size: 22px;
+  color: #2d3033;
+  margin: 20px 0 10px 0;
+}
+
+.teamRole {
+  color: #e84545;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.teamDescription {
+
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #6c7279;
+  flex-grow: 1;
+}
+
+.socialNetworkList {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.socialNetworkList a {
+  border: 1px solid #e8ecee;
+  border-radius: 2px;
+  color: #c6cacc;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  margin-right: 5px;
+}
+
+
+
+.socialNetworkList a:hover, a:active {
+  color: white;
+  border-color: #e84545;
+  background-color: #e84545;
+}
