@@ -29,5 +29,9 @@ body * {
   margin: 0 auto;
 }
 
+a, a:active, a:hover, a:focus {
+  outline: 0;
+  outline-offset: 0;
+}
 
 
