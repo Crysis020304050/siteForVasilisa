@@ -9,6 +9,7 @@ const teams = document.getElementById('teams');
 const testimonials = document.getElementById('testimonials');
 const download = document.getElementById('download');
 
+const downloadButton = document.querySelector('#download>a');
 
 window.onscroll = () => {
     if (window.scrollY > 20) {
@@ -77,6 +78,10 @@ function visible (target) {
             }
         }
 
+        if (target.id === 'download') {
+            downloadButton.style.transform = "rotate(360deg)";
+        }
+
 
 
     }
@@ -111,4 +116,7 @@ for (let anchor of anchors) {
         })
     })
 }
+
+
+
 
