@@ -58,7 +58,7 @@
   {
     "name": "Victoria Valdez",
     "position": "FOUNDER, CEO",
-    "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
+    "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. ortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.ortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.ortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.ortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "avatar": "./assets/images/team-3.jpg",
     "contacts": [
       {
@@ -86,8 +86,8 @@
   {
     "name": "Beverly Little",
     "position": "DATA SCIENTIST",
-    "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
-    "avatar": "./assets/images/team-4.jpg",
+    "description": "Fusce dapibus, varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
+    "avatar": "./assets/images/team-4.jpg df",
     "contacts": [
       {
         "type": "FACEBOOK",

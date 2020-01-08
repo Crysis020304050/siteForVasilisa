@@ -1,6 +1,8 @@
 
+import noneAvatar from '../images/userNoneAvatar.png';
 
 const teamsContent = document.getElementsByClassName('teamsContent')[0];
+
 
 const SOCIAL_NETWORKS = Object.freeze( {
     FACEBOOK: "FACEBOOK",
@@ -47,6 +49,12 @@ function createTeamImageElem(team) {
     const teamImage = new Image();
     teamImage.src = team.avatar;
     teamImage.alt = 'avatar';
+
+    teamImage.onerror = () => {
+        teamImage.src = noneAvatar;
+    };
+
+
 
     teamImageContainer.appendChild(teamImage);
 
@@ -140,3 +148,4 @@ function createSocialNetworksListElem(team) {
 
     return socialNetworkListContainer;
 }
+

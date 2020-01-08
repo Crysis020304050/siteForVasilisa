@@ -31,6 +31,13 @@ screen.orientation.onchange = function () {
     }
 };
 
+/*window.onresize = () => {
+    if (screen.width > 1024) {
+        mobileNavigation.style.display = 'none';
+    }
+};*/
+
+
 function closeNavigation() {
     openNavigationButton.classList.remove('mobileNavigationButtonRotate');
     mobileNavigation.style.display = 'none';
