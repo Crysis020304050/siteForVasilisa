@@ -25,17 +25,13 @@ openNavigationButton.onclick = function (e) {
 
 };
 
-screen.orientation.onchange = function () {
+
+
+window.onresize = () => {
     if (screen.width > 1024) {
-        mobileNavigation.style.display = 'none';
+        closeNavigation();
     }
 };
-
-/*window.onresize = () => {
-    if (screen.width > 1024) {
-        mobileNavigation.style.display = 'none';
-    }
-};*/
 
 
 function closeNavigation() {
