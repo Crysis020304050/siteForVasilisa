@@ -1,4 +1,5 @@
 
+
 import noneAvatar from '../images/userNoneAvatar.png';
 
 const teamsContent = document.getElementsByClassName('teamsContent')[0];
@@ -52,6 +53,7 @@ function createTeamImageElem(team) {
 
     teamImage.onerror = () => {
         teamImage.src = noneAvatar;
+
     };
 
 

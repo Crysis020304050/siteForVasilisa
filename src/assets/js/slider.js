@@ -1,4 +1,6 @@
 
+import noneSlide from '../images/noSlideImage.jpg';
+
 const dataSlides = [];
 
 const imgSliderElem = document.getElementsByClassName('slide')[0];
@@ -48,6 +50,11 @@ function setSlide(num) {
     num--;
 
     imgSliderElem.src = dataSlides[num].href;
+
+    imgSliderElem.onerror = () => {
+        imgSliderElem.src = noneSlide;
+    };
+
     pElem.innerText = dataSlides[num].description;
     h6Elem.innerText = dataSlides[num].name;
 
