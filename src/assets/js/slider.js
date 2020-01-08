@@ -23,7 +23,7 @@ fetch('./data/slider.json')
        createSlideControllerElem();
        setSlide(1);
    })
-});
+}).catch(console.error);
 
 
 function createSlideControllerElem() {

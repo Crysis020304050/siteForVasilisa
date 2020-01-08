@@ -38,10 +38,6 @@
         "href": "https://facebook.com/"
       },
       {
-        "type": "TWITTER",
-        "href": "https://twitter.com/"
-      },
-      {
         "type": "LINKED_IN",
         "href": "https://linkedin.com/"
       },
@@ -100,14 +96,6 @@
       {
         "type": "LINKED_IN",
         "href": "https://linkedin.com/"
-      },
-      {
-        "type": "GOOGLE_PLUS",
-        "href": "https://google.com/"
-      },
-      {
-        "type": "REDDIT",
-        "href": "https://reddit.com/"
       }
     ]
   }

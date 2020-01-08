@@ -19,7 +19,7 @@ fetch('./data/employees.json')
    teams.forEach((team) => {
        teamsContent.appendChild(createTeamCard(team));
    })
-});
+}).catch(console.error);
 
 function createTeamCard(team) {
     const teamCard = document.createElement('div');
