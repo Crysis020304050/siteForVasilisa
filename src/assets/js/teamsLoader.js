@@ -91,60 +91,37 @@ function createSocialNetworksListElem(team) {
     socialNetworkListContainer.classList.add('socialNetworkList');
 
     team.contacts.forEach(socialLink => {
-       if (socialLink.type === SOCIAL_NETWORKS.FACEBOOK) {
-           const teamFacebook = document.createElement('a');
-           teamFacebook.href = socialLink.href;
 
-           const facebookIcon = document.createElement('i');
-           facebookIcon.setAttribute("class", "fab fa-facebook-f");
-           teamFacebook.appendChild(facebookIcon);
+        if (SOCIAL_NETWORKS[socialLink.type]) {
 
-           socialNetworkListContainer.appendChild(teamFacebook);
-       }
+            const link = document.createElement('a');
+            link.href = socialLink.href;
 
-        if (socialLink.type === SOCIAL_NETWORKS.TWITTER) {
-            const teamTwitter = document.createElement('a');
-            teamTwitter.href = socialLink.href;
+            const icon = document.createElement('i');
 
-            const twitterIcon = document.createElement('i');
-            twitterIcon.setAttribute("class", "fab fa-twitter");
-            teamTwitter.appendChild(twitterIcon);
+            link.appendChild(icon);
 
-            socialNetworkListContainer.appendChild(teamTwitter);
+            socialNetworkListContainer.appendChild(link);
+
+            switch (socialLink.type) {
+                case SOCIAL_NETWORKS.FACEBOOK:
+                    icon.setAttribute("class", "fab fa-facebook-f");
+                    break;
+                case SOCIAL_NETWORKS.TWITTER:
+                    icon.setAttribute("class", "fab fa-twitter");
+                    break;
+                case SOCIAL_NETWORKS.LINKED_IN:
+                    icon.setAttribute("class", "fab fa-linkedin-in");
+                    break;
+                case SOCIAL_NETWORKS.GOOGLE_PLUS:
+                    icon.setAttribute("class", "fab fa-google-plus-g");
+                    break;
+                case SOCIAL_NETWORKS.REDDIT:
+                    icon.setAttribute("class", "fas fa-basketball-ball");
+                    break;
+            }
         }
 
-        if (socialLink.type === SOCIAL_NETWORKS.LINKED_IN) {
-            const teamLinkedIn = document.createElement('a');
-            teamLinkedIn.href = socialLink.href;
-
-            const linkedInIcon = document.createElement('i');
-            linkedInIcon.setAttribute("class", "fab fa-linkedin-in");
-            teamLinkedIn.appendChild(linkedInIcon);
-
-            socialNetworkListContainer.appendChild(teamLinkedIn);
-        }
-
-        if (socialLink.type === SOCIAL_NETWORKS.GOOGLE_PLUS) {
-            const teamGooglePlus = document.createElement('a');
-            teamGooglePlus.href = socialLink.href;
-
-            const googlePlusIcon = document.createElement('i');
-            googlePlusIcon.setAttribute("class", "fab fa-google-plus-g");
-            teamGooglePlus.appendChild(googlePlusIcon);
-
-            socialNetworkListContainer.appendChild(teamGooglePlus);
-        }
-
-        if (socialLink.type === SOCIAL_NETWORKS.REDDIT) {
-            const teamReddit = document.createElement('a');
-            teamReddit.href = socialLink.href;
-
-            const redditIcon = document.createElement('i');
-            redditIcon.setAttribute("class", "fas fa-basketball-ball");
-            teamReddit.appendChild(redditIcon);
-
-            socialNetworkListContainer.appendChild(teamReddit);
-        }
     });
 
     return socialNetworkListContainer;

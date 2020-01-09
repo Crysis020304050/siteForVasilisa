@@ -70,8 +70,6 @@ function setSlide(num) {
 }
 
 
-
-
 let isStarted = false;
 
 let animation = true;
@@ -89,21 +87,15 @@ testimonials.onmouseleave = function (e) {
 
 
 function sliderObserver(num) {
-
-
     if (!isStarted) {
         setInterval( () => {
-
             if (!animation) {
                 return;
             }
-
             if (num === dataSlides.length) {
                 num = 0;
             }
-
             num++;
-
             setSlide(num)
         },5000);
         isStarted = true;
