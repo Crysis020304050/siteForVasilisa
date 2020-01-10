@@ -65,7 +65,7 @@ function createTeamImageElem(team) {
 function createFullNameElem(team) {
     const fullName = document.createElement('h4');
     fullName.classList.add('fullName');
-    fullName.innerText = team.name;
+    fullName.innerText = team.name || '';
 
     return fullName;
 }
@@ -73,7 +73,7 @@ function createFullNameElem(team) {
 function createTeamRoleElem(team) {
     const teamRole = document.createElement('h5');
     teamRole.classList.add('teamRole');
-    teamRole.innerText = team.position;
+    teamRole.innerText = team.position || '';
 
     return teamRole;
 }
@@ -81,7 +81,7 @@ function createTeamRoleElem(team) {
 function createTeamDescriptionElem(team) {
     const teamDescription = document.createElement('p');
     teamDescription.classList.add('teamDescription');
-    teamDescription.innerText = team.description;
+    teamDescription.innerText = team.description || '';
 
     return teamDescription;
 }

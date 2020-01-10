@@ -55,8 +55,8 @@ function setSlide(num) {
         imgSliderElem.src = noneSlide;
     };
 
-    pElem.innerText = dataSlides[num].description;
-    h6Elem.innerText = dataSlides[num].name;
+    pElem.innerText = dataSlides[num].description || '';
+    h6Elem.innerText = dataSlides[num].name || '';
 
 
     const slidesControllersElements = document.getElementsByClassName('slideController');
