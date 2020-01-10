@@ -5,13 +5,13 @@ import noneAvatar from '../images/anonim.png';
 const teamsContent = document.getElementsByClassName('teamsContent')[0];
 
 
-const SOCIAL_NETWORKS = Object.freeze( {
-    FACEBOOK: "FACEBOOK",
-    TWITTER: "TWITTER",
-    LINKED_IN: "LINKED_IN",
-    GOOGLE_PLUS: "GOOGLE_PLUS",
-    REDDIT: "REDDIT",
-});
+const linksMap = new Map();
+linksMap.set('facebook.com', 'fab fa-facebook-f');
+linksMap.set('twitter.com', 'fab fa-twitter');
+linksMap.set('linkedin.com', 'fab fa-linkedin-in');
+linksMap.set('google.com', 'fab fa-google-plus-g');
+linksMap.set('reddit.com', 'fas fa-basketball-ball');
+
 
 fetch('./data/employees.json')
 .then(response => response.json())
@@ -86,44 +86,25 @@ function createTeamDescriptionElem(team) {
     return teamDescription;
 }
 
+
 function createSocialNetworksListElem(team) {
     const socialNetworkListContainer = document.createElement('div');
     socialNetworkListContainer.classList.add('socialNetworkList');
 
-    team.contacts.forEach(socialLink => {
+    if (Array.isArray(team.contacts)) {
+        team.contacts.forEach(socialLink => {
 
-        if (SOCIAL_NETWORKS[socialLink.type]) {
-
-            const link = document.createElement('a');
-            link.href = socialLink.href;
-
-            const icon = document.createElement('i');
-
-            link.appendChild(icon);
-
-            socialNetworkListContainer.appendChild(link);
-
-            switch (socialLink.type) {
-                case SOCIAL_NETWORKS.FACEBOOK:
-                    icon.setAttribute("class", "fab fa-facebook-f");
-                    break;
-                case SOCIAL_NETWORKS.TWITTER:
-                    icon.setAttribute("class", "fab fa-twitter");
-                    break;
-                case SOCIAL_NETWORKS.LINKED_IN:
-                    icon.setAttribute("class", "fab fa-linkedin-in");
-                    break;
-                case SOCIAL_NETWORKS.GOOGLE_PLUS:
-                    icon.setAttribute("class", "fab fa-google-plus-g");
-                    break;
-                case SOCIAL_NETWORKS.REDDIT:
-                    icon.setAttribute("class", "fas fa-basketball-ball");
-                    break;
+            if (linksMap.get(new URL(socialLink).host)) {
+                const link = document.createElement('a');
+                link.href = socialLink;
+                const icon = document.createElement('i');
+                link.appendChild(icon);
+                socialNetworkListContainer.appendChild(link);
+                icon.setAttribute('class', `${linksMap.get(new URL(socialLink).host)}`)
             }
-        }
 
-    });
+        });
+    }
 
     return socialNetworkListContainer;
 }
-
