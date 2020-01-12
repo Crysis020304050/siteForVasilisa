@@ -1,27 +1,9 @@
 
-
-import noneAvatar from '../images/anonim.png';
-
-const teamsContent = document.getElementsByClassName('teamsContent')[0];
+import {linksMap} from './linksMap.js';
+import noneAvatar from '../../../images/anonim.png';
 
 
-const linksMap = new Map();
-linksMap.set('facebook.com', 'fab fa-facebook-f');
-linksMap.set('twitter.com', 'fab fa-twitter');
-linksMap.set('linkedin.com', 'fab fa-linkedin-in');
-linksMap.set('google.com', 'fab fa-google-plus-g');
-linksMap.set('reddit.com', 'fas fa-basketball-ball');
-
-
-fetch('./data/employees.json')
-.then(response => response.json())
-.then(teams => {
-   teams.forEach((team) => {
-       teamsContent.appendChild(createTeamCard(team));
-   })
-}).catch(console.error);
-
-function createTeamCard(team) {
+export function createTeamCard(team) {
     const teamCard = document.createElement('div');
     teamCard.classList.add('teamCard');
 
@@ -108,3 +90,4 @@ function createSocialNetworksListElem(team) {
 
     return socialNetworkListContainer;
 }
+
