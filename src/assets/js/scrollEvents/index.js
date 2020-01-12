@@ -1,4 +1,5 @@
 import {visible} from "./components/observeElementsVisbility.js";
+import {addSmoothScroll} from './components/smoothScroll.js';
 
 const headerContent = document.getElementsByClassName('headerContent')[0];
 const header = document.getElementById('header');
@@ -38,3 +39,5 @@ function fixNavigation() {
     headerContent.style.borderBottom = "none";
     header.style.backgroundColor = "#292C47";
 }
+
+addSmoothScroll();
