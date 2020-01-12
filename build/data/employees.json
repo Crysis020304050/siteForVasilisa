@@ -5,26 +5,11 @@
     "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "avatar": "./assets/images/team-1.jpg",
     "contacts": [
-      {
-        "type": "FACEBOOK",
-        "href": "https://facebook.com/"
-      },
-      {
-        "type": "TWITTER",
-        "href": "https://twitter.com/"
-      },
-      {
-        "type": "LINKED_IN",
-        "href": "https://linkedin.com/"
-      },
-      {
-        "type": "GOOGLE_PLUS",
-        "href": "https://google.com/"
-      },
-      {
-        "type": "REDDIT",
-        "href": "https://reddit.com/"
-      }
+      "https://facebook.com/",
+      "https://twitter.com/",
+      "https://linkedin.com/",
+      "https://google.com/",
+      "https://reddit.com/"
     ]
   },
   {
@@ -33,82 +18,33 @@
     "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "avatar": "./assets/images/team-2.jpg",
     "contacts": [
-      {
-        "type": "FACEBOOK",
-        "href": "https://facebook.com/"
-      },
-      {
-        "type": "TWITTER",
-        "href": "https://twitter.com/"
-      },
-      {
-        "type": "LINKED_IN",
-        "href": "https://linkedin.com/"
-      },
-      {
-        "type": "GOOGLE_PLUS",
-        "href": "https://google.com/"
-      },
-      {
-        "type": "REDDIT",
-        "href": "https://reddit.com/"
-      }
+      "https://facebook.com/",
+      "https://linkedin.com/",
+      "https://google.com/",
+      "https://reddit.com/"
     ]
   },
   {
     "name": "Victoria Valdez",
     "position": "FOUNDER, CEO",
-    "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
+    "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. ortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.ortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.ortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.ortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "avatar": "./assets/images/team-3.jpg",
     "contacts": [
-      {
-        "type": "FACEBOOK",
-        "href": "https://facebook.com/"
-      },
-      {
-        "type": "TWITTER",
-        "href": "https://twitter.com/"
-      },
-      {
-        "type": "LINKED_IN",
-        "href": "https://linkedin.com/"
-      },
-      {
-        "type": "GOOGLE_PLUS",
-        "href": "https://google.com/"
-      },
-      {
-        "type": "REDDIT",
-        "href": "https://reddit.com/"
-      }
+      "https://facebook.com/",
+      "https://twitter.com/",
+      "https://reddit.com/"
     ]
   },
   {
     "name": "Beverly Little",
     "position": "DATA SCIENTIST",
-    "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
-    "avatar": "./assets/images/team-4.jpg",
+    "description": "Fusce dapibus, varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
+    "avatar": "./assets/images/team-4.jpg df",
     "contacts": [
-      {
-        "type": "FACEBOOK",
-        "href": "https://facebook.com/"
-      },
-      {
-        "type": "TWITTER",
-        "href": "https://twitter.com/"
-      },
-      {
-        "type": "LINKED_IN",
-        "href": "https://linkedin.com/"
-      },
-      {
-        "type": "GOOGLE_PLUS",
-        "href": "https://google.com/"
-      },
-      {
-        "type": "REDDIT",
-        "href": "https://reddit.com/"
-      }
+      "https://twitter.com/",
+      "https://linkedin.com/",
+      "https://google.com/",
+      "https://reddit.com/"
     ]
   }
 ]
