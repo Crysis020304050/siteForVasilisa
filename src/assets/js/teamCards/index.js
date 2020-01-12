@@ -1,6 +1,6 @@
 
 import {loadJson} from '../utils/fetchLoader.js';
-import {createTeamCard} from "./components/createTeamCards";
+import {createTeamCard} from "./components/createTeamCards.js";
 
 const teamsContent = document.getElementsByClassName('teamsContent')[0];
 
