@@ -59,13 +59,10 @@
 }
 
 
-/*test*/
-
 .navigationEvent {
   color: #fff !important;
 }
 
-/*test*/
 
 .navigation a:active {
   color: #fff;
@@ -153,7 +150,7 @@
 }
 
 .mobileNavigationContainer {
-  display: none;
+  display: flex;
   position: fixed;
   top: 0;
   left: 0;
