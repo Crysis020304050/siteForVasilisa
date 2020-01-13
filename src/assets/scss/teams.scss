@@ -23,7 +23,7 @@
 }
 
 .teamImageContainer img {
-  width: inherit;
+  width: 100%;
 }
 
 .fullName {
@@ -51,6 +51,8 @@
   display: flex;
   justify-content: center;
   margin-right: 30px;
+
+  width: 225px;
 }
 
 .socialNetworkList a {
@@ -63,6 +65,7 @@
   text-align: center;
   width: 40px;
   margin-right: 5px;
+
 }
 
 
