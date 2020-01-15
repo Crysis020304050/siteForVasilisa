@@ -1,7 +1,9 @@
 
 import {loadJson} from "../utils/fetchLoader.js";
 import {addFullSlide} from "./components/createAndAddSlide.js";
-import {numOfSlide, j, sliderObserver} from './components/createAndAddSlide.js';
+import {numOfSlide, sliderObserver} from './components/createAndAddSlide.js';
+import {counterOfSlides} from './components/createSomeSliderElem.js';
+
 
 const testimonials = document.getElementById('testimonials');
 export let animation = true;
@@ -9,7 +11,7 @@ export let animation = true;
 loadJson('./data/slider.json')
     .then(slides => {
         slides.forEach(slide => {
-            if (j < 7) {
+            if (counterOfSlides < 7) {
                 addFullSlide(slide);
             }
         })

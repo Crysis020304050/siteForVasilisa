@@ -40,6 +40,7 @@
   ],
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
+    "apollo-boost": "^0.4.7",
     "lodash": "^4.17.15"
   }
 }
