@@ -1,0 +1,27 @@
+[
+  {
+    "type": "someType1",
+    "href": "https://alfaday.net/uploads/posts/2013-03/1364547418_u5ygqhjtlbow41j.jpg",
+    "description": ""
+  },
+  {
+    "type": "someType1",
+    "href": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Atlas_deck_3_of_hearts.svg/682px-Atlas_deck_3_of_hearts.svg.png",
+    "description": ""
+  },
+  {
+    "type": "someType2",
+    "href": "https://cdn.pixabay.com/photo/2015/08/11/11/57/spades-884187_960_720.png",
+    "description": ""
+  },
+  {
+    "type": "someType3",
+    "href": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Atlas_deck_ace_of_clubs.svg/512px-Atlas_deck_ace_of_clubs.svg.png",
+    "description": ""
+  },
+  {
+    "type": "someType2",
+    "href": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRqSSY4Hw0t-Z3YguZhsdF54NdjYQN9iRbtA0I5ngJKSMzMSCSa",
+    "description": ""
+  }
+]
