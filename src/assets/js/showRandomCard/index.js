@@ -4,11 +4,12 @@ import {loadJson} from '../utils/loader.js'
 
 
 loadJson('./data/cards.json')
-    .then(addCardsPack)
+    .then(addCardsPackAndOnButtonClickEvent)
     .catch(console.error);
 
 
-const button = document.getElementsByClassName('button')[0];
-
-button.onclick = buttonClick;
-
+function addCardsPackAndOnButtonClickEvent(cards) {
+    addCardsPack(cards);
+    const button = document.getElementsByClassName('button')[0];
+    button.onclick = buttonClick;
+}

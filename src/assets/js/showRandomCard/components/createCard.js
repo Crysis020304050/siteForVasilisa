@@ -1,4 +1,5 @@
 export function createFullCard(card) {
+    createCardDescription(card);
     return createCardPicture(card);
 }
 
@@ -11,5 +12,6 @@ function createCardPicture({href}) {
 }
 
 function createCardDescription({description}) {
-
+    const cardWord = document.getElementsByClassName('cardWord')[0];
+    cardWord.innerText = description || '';
 }
