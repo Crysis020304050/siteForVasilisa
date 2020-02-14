@@ -1,5 +1,6 @@
 import {createFullCard} from "../components/createCard.js";
 import {loadJson} from '../../utils/loader.js';
+import {getRandomIntInclusive} from "../../utils/randomInt.js";
 
 let cardsList = [];
 
@@ -37,8 +38,3 @@ function addAndAppendCards(cards) {
     cardWrapper.appendChild(createFullCard(cardsList[getRandomIntInclusive(0, cardsList.length - 1)]));
 }
 
-function getRandomIntInclusive(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
