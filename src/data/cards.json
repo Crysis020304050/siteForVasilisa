@@ -1,37 +1,362 @@
 [
   {
-    "type": "someType1",
-    "href": "https://alfaday.net/uploads/posts/2013-03/1364547418_u5ygqhjtlbow41j.jpg",
-    "description": ""
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/1.jpg",
+    "description": ["word1", "word2", "word3"]
   },
   {
-    "type": "someType1",
-    "href": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Atlas_deck_3_of_hearts.svg/682px-Atlas_deck_3_of_hearts.svg.png",
-    "description": ""
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/2.jpg",
+    "description": ["word1", "word2", "word3"]
   },
   {
-    "type": "someType2",
-    "href": "https://cdn.pixabay.com/photo/2015/08/11/11/57/spades-884187_960_720.png",
-    "description": ""
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/3.jpg",
+    "description": ["word1", "word2", "word3"]
   },
   {
-    "type": "someType3",
-    "href": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Atlas_deck_ace_of_clubs.svg/512px-Atlas_deck_ace_of_clubs.svg.png",
-    "description": ""
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/4.jpg",
+    "description": ["word1", "word2", "word3"]
   },
   {
-    "type": "Животные",
-    "href": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHbwLmm-dkp3CXsD1c6-gIYNvdRj_1A2Q39XAGpBWvdIKdfegq",
-    "description": ""
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/5.jpg",
+    "description": ["word1", "word2", "word3"]
   },
   {
-    "type": "Картинки",
-    "href": "https://lh3.googleusercontent.com/proxy/wCECpc-jibxMD-rUIAlEm5qfedWzZGcxAROUwnbQDlmLbbtGM4WGVNRB5HmxI4evncFChalin1QRuUg6h68Sz-87EYsheaaZC_CL",
-    "description": ""
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/6.jpg",
+    "description": ["word1", "word2", "word3"]
   },
   {
-    "type": "Картинки",
-    "href": "https://autocad-lessons.ru/wp-content/uploads/2016/12/06_35-sw.jpg",
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/7.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/8.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/9.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/10.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/11.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+  "type": "Прятки",
+  "href": "../assets/images/card_packs/Прятки/12.jpg",
+  "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/13.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/14.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/15.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/16.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/17.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/18.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/19.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/20.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/21.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/22.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/23.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/24.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/25.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/26.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/27.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/28.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/29.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/30.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/31.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/32.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/33.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/34.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/35.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/36.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/37.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/38.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/39.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/40.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/41.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/42.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/43.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/44.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/45.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/46.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/47.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/48.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/49.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/50.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/51.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/52.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/53.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/54.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/55.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/56.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/57.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/58.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/59.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/60.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/61.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+  "type": "Прятки",
+  "href": "../assets/images/card_packs/Прятки/62.jpg",
+  "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/63.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/64.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/65.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/66.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/67.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/68.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/69.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/70.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/71.jpg",
+    "description": ["word1", "word2", "word3"]
+  },
+  {
+    "type": "Прятки",
+    "href": "../assets/images/card_packs/Прятки/72.jpg",
     "description": ["word1", "word2", "word3"]
   }
 ]
