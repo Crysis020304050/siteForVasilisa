@@ -29,6 +29,7 @@ body {
   font-size: 18px;
   text-align: center;
   padding: 15px 0;
+
 }
 
 .cardWrapper {
@@ -53,6 +54,8 @@ body {
 .cardWrapper img {
   max-height: 95%;
   max-width: 280px;
+
+  animation: fadeIn 1s;
 }
 
 .selectList {
@@ -76,6 +79,11 @@ body {
 
 .button:hover {
   background-color: #0E1B40 !important;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 @media screen and (max-height: 390px){
